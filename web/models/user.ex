@@ -20,7 +20,6 @@ defmodule DepsIssue.User do
     has_many :clients, @client
     has_many :tokens, @token_store
     has_many :apps, @app
-    has_many :timetables, LessonsPlan.Timetable
 
     timestamps()
   end
